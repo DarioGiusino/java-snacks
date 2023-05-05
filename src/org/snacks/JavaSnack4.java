@@ -12,12 +12,17 @@ public class JavaSnack4 {
 		scanner.close();
 		
 		StringBuffer sbr = new StringBuffer(userString);
+		String reversedString = "" + sbr.reverse();
 		
-		if(userString.equals("" + sbr.reverse())) {
-			System.out.println("parola palindroma");
-		} else {
-			System.out.println("parola NON palindroma");
-		}
+		String result = userString.equals(reversedString) ? "parola palindroma" : "parola NON palindroma";
+		
+		System.out.println(result);
+		
+//		if(userString.equals(reversedString)) {
+//			System.out.println("parola palindroma");
+//		} else {
+//			System.out.println("parola NON palindroma");
+//		}
 		
 	}
 }
