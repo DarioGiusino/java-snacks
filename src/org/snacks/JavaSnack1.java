@@ -1,7 +1,7 @@
 package org.snacks;
 import java.util.Scanner;
 
-public class JavaSnacks1 {
+public class JavaSnack1 {
 	public static void main(String[] args) {
 		
 		Scanner scanner = new Scanner(System.in);
