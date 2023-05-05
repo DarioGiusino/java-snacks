@@ -11,8 +11,8 @@ public class JavaSnack10 {
 		
 		sc.close();
 		
-		double area = radius * radius * 3.14;
-		double circumference = 2 * radius * 3.14;
+		double area = radius * radius * Math.PI;
+		double circumference = 2 * radius * Math.PI;
 		
 		System.out.println("l'area del cerchio è: " + area);
 		System.out.println("la circonferenza del cerchio è: " + circumference);
